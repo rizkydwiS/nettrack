@@ -1,11 +1,8 @@
+<title>Create Thread - Nettrack</title>
 @extends('layouts.front')
-
 @section('heading',"Create Thread")
-
 @section('content')
-
 	@include('layouts.partials.error')
-
 	@include('layouts.partials.success')
 
 	@if (session('message'))

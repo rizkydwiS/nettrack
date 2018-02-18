@@ -1,19 +1,6 @@
-/*@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");*/
-/*!
- * bootswatch v3.3.7
- * Homepage: http://bootswatch.com
- * Copyright 2012-2016 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
-*/
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 html {
-  font-family: sans-serif;
+  font-family: sans-serif;-ms-text-size-adjust:100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1148,10 +1135,13 @@ img {
   border-radius: 50%;
 }
 hr {
+  height: 4px;
   margin-top: 21px;
-  margin-bottom: 21px;
+  margin-left: 15px;
+  margin-bottom:-3px;
   border: 0;
   border-top: 1px solid #ecf0f1;
+}
 }
 .sr-only {
   position: absolute;
@@ -6798,7 +6788,7 @@ button.close {
 }
 .text-info,
 .text-info:hover {
-  color: #3498db;
+  color: #18BC9C;
 }
 table a:not(.btn),
 .table a:not(.btn) {

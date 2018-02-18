@@ -4,9 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Thread extends Model
+class Comment extends Model
 {
-    protected $fillable=['subject','type','thread','user_id'];
+
+	protected $fillable=['body','user_id'];
+
+    public function commentable()
+    {
+    	return $this->morphTo();
+    }
 
     public function user()
     {

@@ -37,7 +37,7 @@
                         @else
                             <li>
                                 <a><i class="fa fa-user"></i>
-                                    {{ Auth::user()->name }}
+                                    {{str_limit(Auth::user()->name,24) }}
                                 </a>
                             </li>
                             <li>

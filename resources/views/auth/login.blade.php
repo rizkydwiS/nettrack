@@ -63,6 +63,10 @@
                     </form>
                 </div>
             </div>
+                <p class="create-account-callout mt-3">
+                    Just found this new site?
+                    <a href="{{route('register')}}">Join us</a>.
+                </p>
         </div>
     </div>
 </div>

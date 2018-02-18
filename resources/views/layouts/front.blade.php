@@ -21,15 +21,28 @@
 		@include('layouts.partials.category')
 	@show
 			<div class="col-md-9">
-				<div class="row content-heading"><h4>@yield('heading')</h4></div>	
+				<div class="row content-heading"><h4>&nbsp;&nbsp;&nbsp;@yield('heading')</h4></div>	
 				<div class="content-wrap-well">
 					@yield('content')
 				</div>
 			</div>
 		</div>
 </div>
+<footer>
+	<div class="footer-color">
+	<hr>
+	 	<div id="footer" class="container text-center">
+		    <br>
+		    Copyright © 2018 Network Track • Made with Laravel
+		    <br>
+		    <a href="https://github.com/dwictator"><i class="fa fa-github"></i></a>
+		    <a href="https://instagram.com/dwict_"><i class="fa fa-instagram"></i></a>
+		    <a href="https://facebook.com/rizky.s.522"><i class="fa fa-facebook"></i></a>
+    		<br><br>
+		</div>
+	</div>
+</footer>
 <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 </body>
 </html>

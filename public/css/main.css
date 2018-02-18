@@ -13,3 +13,18 @@
 .inline-it{
 	display: inline-block !important;
 }
+.main {
+	word-wrap:break-word;
+}
+.footer-color{
+	background-color: #F0F0F3;
+}
+.create-account-callout{
+	padding:15px 20px;
+	text-align:center;
+	border:1px solid #d8dee2;
+	border-radius:5px
+}
+.mt-3{
+	margin-top:16px !important;
+}
